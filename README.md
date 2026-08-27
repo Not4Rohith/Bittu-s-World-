@@ -295,25 +295,66 @@ required for the core learning experience.
 A typical structure for the application is:
 
 ``` text
-src/
-├── components/
-│   ├── Sidebar
-│   ├── CodeSnippetActivity
-│   └── ...
-│
-├── pages/
-│   ├── Home
-│   ├── OrderedImmutable
-│   ├── Heterogeneous
-│   ├── NestedMutable
-│   ├── FinalTest
-│   └── ...
-│
-├── assets/
-│   └── ...
-│
-├── App.jsx
-└── main.jsx
+├── src/ 
+    ├── index.css
+    ├── assets/ 
+    │   ├── hero.png
+    │   ├── react.svg 
+    │   └── vite.svg 
+    ├── main.jsx
+    ├── App.jsx 
+    ├── pages/ 
+    │   ├── FinalTest.jsx 
+    │   ├── Home.jsx 
+    │   ├── NestedMutable.jsx 
+    │   ├── Ordered.jsx 
+    │   └── Heterogeneous.jsx 
+    ├── context/ 
+    │   └── TourContext.jsx 
+    ├── App.css 
+    ├── data/ 
+    │   ├── quiz.js 
+    │   ├── snippets.js 
+    │   └── tours.js 
+    └── components/ 
+    │   ├── BittuTourGlobal.jsx 
+    │   ├── Sidebar.jsx 
+    │   ├── CodeSnippetActivity.jsx 
+    │   └── Quiz.jsx 
+├── public/ 
+    ├── images/ 
+    │   ├── 5.png
+    │   ├── a1.png
+    │   ├── bg.png
+    │   ├── y1.png
+    │   ├── y2.png
+    │   ├── y3.png
+    │   ├── y4.png
+    │   ├── y5.png
+    │   ├── z2.png
+    │   ├── z3.png
+    │   ├── z4.png
+    │   ├── z5.png
+    │   ├── z6.png
+    │   ├── 1-Photoroom.png
+    │   ├── 10-Photoroom.png
+    │   ├── 11-Photoroom.png
+    │   ├── 3-Photoroom.png
+    │   ├── 6-Photoroom.png
+    │   ├── 7-Photoroom.png
+    │   ├── 9-Photoroom.png
+    │   ├── a2-Photoroom.png
+    │   ├── a3-Photoroom.png
+    │   ├── a4-Photoroom.png
+    │   └── a5-Photoroom.png
+    ├── icons.svg 
+    └── favicon.svg 
+├── vite.config.js
+├── .oxlintrc.json
+├── .gitignore
+├── index.html
+├── package.json 
+└── README.md 
 ```
 
 The exact structure may vary as the application evolves.
